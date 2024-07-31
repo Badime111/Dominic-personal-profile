@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Dominique</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/e8acdf137f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Dominique SpiderMan's profile</h1>
+      </header>
+    
+      
+    <nav>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html" class="hero-bt">Home</a></li>
+            <li><a href="education.html" class="hero-bt">Education</a></li>
+            <li><a href="skill.html" class="hero-bt">Skills</a></li>
+            <li><a href="experience.html" class="hero-bt">Experience</a></li>
+            <li><a href="certifications.html" class="hero-bt">Certifications & Training</a></li>
+            <li><a href="achievements.html" class="hero-bt">Achievements</a></li>
+            <li><a href="contact.html" class="hero-bt">Contact</a></li>
+          </ul>
+
+    </div>
+
+      <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+
+
+    <main>
+      <div class="maindiv">
+        <div class="text">
+
+        
+          <section id="contact">
+            <h2>Contact</h2>
+            <p>Address: A50 Kanjo –Nanumba South District N/R</p>
+            <p>Email: dominic.njangnabe@stu.ucc.edu.gh</p>
+            <p>Phone: 0551283612</p>
+          </section>
+
+            <div class="erasing-animation">
+              Contact Dominique, The SpiderMan.
+            </div>
+          
+        </div>
+        <div class="imge">
+          <img src="sample.jpg" alt="The image is missing">
+        </div>
+      </div>
+  
+
+    <footer>
+        <p>&copy; 2024 Dominique profile. All rights reserved.</p>
+    </footer>
+    
+      <!..............Javascript for Toggle Menu..............>
+
+    <script>
+    	var navLinks =document.getElementById("navLinks");
+    	function showMenu(){
+    		navLinks.style.right = "0";
+    	}
+    	function hideMenu(){
+    		navLinks.style.right = "-200px";
+    	}
+    	
+    </script>
+
+</body>
+</html>

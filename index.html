@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominique SpiderMan - Personal Profile</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/e8acdf137f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Dominique SpiderMan's profile</h1>
+    </header>
+  
+    <nav>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html" class="hero-bt">HOME</a></li>
+            <li><a href="education.html" class="hero-bt">EDUCATION</a></li>
+            <li><a href="skill.html" class="hero-bt">SKILLS</a></li>
+            <li><a href="experience.html" class="hero-bt">EXPERIENCE</a></li>
+            <li><a href="certifications.html" class="hero-bt">CERTIFICATIONS & TRAINING</a></li>
+            <li><a href="achievements.html" class="hero-bt">ACHIEVEMENTS</a></li>
+            <li><a href="contact.html" class="hero-bt">CONTACT</a></li>
+          </ul>
+
+    </div>
+
+      <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+
+    <main>
+  
+    <section class="courses">
+
+        <h1>Information Technology Student</h1>
+        <div class="erasing-animation">
+          Database developer, Web developer, Python developer
+        </div>
+  
+		    <div class="rom">
+			<div class="course-col">
+				<h3>Database developer</h3>
+				<p>I am a skilled database developer with a keen eye for optimizing data structures and improving query performance
+                </p>
+			</div>
+			<div class="course-col">
+				<h3>Web developer</h3>
+				<p>As a versatile web developer, I specialize in crafting visually websites and web application </p>
+			</div>
+			<div class="course-col">
+				<h3>Python developer</h3>
+
+				<p>As a proficient Python developer, I leverage the language's powerful features and robust ecosystem to build innovative, scalable, and efficient software solutions.</p>
+				
+			</div>
+			
+		</div>
+	
+	</section>
+      
+      
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dominique profile. All rights reserved.</p>
+    </footer>
+
+    <!..............Javascript for Toggle Menu..............>
+
+    <script>
+    	var navLinks =document.getElementById("navLinks");
+    	function showMenu(){
+    		navLinks.style.right = "0";
+    	}
+    	function hideMenu(){
+    		navLinks.style.right = "-200px";
+    	}
+    	
+    </script>
+
+  </body>
+  </html>
+
+  
+
+
+

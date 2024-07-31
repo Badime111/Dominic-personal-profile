@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominique experience</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/e8acdf137f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Dominique SpiderMan's profile</h1>
+      </header>
+    
+      
+    <nav>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html" class="hero-bt">Home</a></li>
+            <li><a href="education.html" class="hero-bt">Education</a></li>
+            <li><a href="skill.html" class="hero-bt">Skills</a></li>
+            <li><a href="experience.html" class="hero-bt">Experience</a></li>
+            <li><a href="certifications.html" class="hero-bt">Certifications & Training</a></li>
+            <li><a href="achievements.html" class="hero-bt">Achievements</a></li>
+            <li><a href="contact.html" class="hero-bt">Contact</a></li>
+          </ul>
+    </div>
+
+      <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+
+    <main>
+      <div class="maindiv">
+        <div class="text">
+
+          <section id="experience">
+            <h2>Experience</h2>
+            <p>I developed hands-on skills through various project works, including Programming <br>
+                and problem-solving analysis project where we created a tic tac toe game <br>
+                using C++ and Web technology project where we developed a website for school <br>
+                 management system. These experiences honed my abilities in research, problem-solving,<br>
+                 and project management, preparing me for real-world challenges. I thrive in collaborative environments <br>
+                 and excel at delivering quality outcomes under deadlines.</p>
+          </section>
+
+            <div class="erasing-animation">
+              Dominique experience is impressive.
+            </div>
+          
+        </div>
+        <div class="imge">
+          <img src="sample.jpg" alt="The image is missing">
+        </div>
+      </div>
+      
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Dominique profile. All rights reserved.</p>
+    </footer>
+    
+      <!..............Javascript for Toggle Menu..............>
+
+    <script>
+    	var navLinks =document.getElementById("navLinks");
+    	function showMenu(){
+    		navLinks.style.right = "0";
+    	}
+    	function hideMenu(){
+    		navLinks.style.right = "-200px";
+    	}
+    	
+    </script>
+
+</body>
+</html>
